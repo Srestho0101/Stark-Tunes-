@@ -10,3 +10,19 @@ body {
     background: linear-gradient(135deg, #c14fac, #1e6096, #341cad, #17466c);
     background-repeat: no-repeat;
 }
+
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .player {
+    width: 97%;
+    height: 70vh;
+    max-height: 600px;
+    background: #1D1D1F;
+    border-radius: 10px;
+}
